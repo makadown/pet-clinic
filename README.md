@@ -1,5 +1,7 @@
 # pet-clinic
-Proyecto de curso de Spring Framework. Teacher John Thopson.
+Proyecto de curso de Spring Framework.
+
+Instructor: John Thompson.
 
  ## Dependencias
  
