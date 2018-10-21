@@ -2,8 +2,6 @@ package com.makadown.petclinic.bootstrap;
 
 import com.makadown.petclinic.model.Owner;
 import com.makadown.petclinic.model.Vet;
-import com.makadown.petclinic.services.Map.OwnerServiceMap;
-import com.makadown.petclinic.services.Map.VetServiceMap;
 import com.makadown.petclinic.services.OwnerService;
 import com.makadown.petclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
@@ -18,10 +16,10 @@ public class DataLoader implements CommandLineRunner {
     /*private final SpecialtyService specialtyService;
     private final VisitService visitService;*/
 
-    public DataLoader(/* OwnerService ownerService, VetService vetService , PetTypeService petTypeService,
+    public DataLoader( OwnerService ownerService, VetService vetService /* , PetTypeService petTypeService,
                       SpecialtyService specialtyService, VisitService visitService*/ ) {
-        this.ownerService = new OwnerServiceMap();
-        this.vetService = new VetServiceMap();
+        this.ownerService = ownerService;
+        this.vetService = vetService;
 /*        this.petTypeService = petTypeService;
         this.specialtyService = specialtyService;
         this.visitService = visitService;*/
