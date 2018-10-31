@@ -1,8 +1,10 @@
 package com.makadown.petclinic.bootstrap;
 
 import com.makadown.petclinic.model.Owner;
+import com.makadown.petclinic.model.PetType;
 import com.makadown.petclinic.model.Vet;
 import com.makadown.petclinic.services.OwnerService;
+import com.makadown.petclinic.services.PetTypeService;
 import com.makadown.petclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -12,15 +14,15 @@ public class DataLoader implements CommandLineRunner {
 
     private final OwnerService ownerService;
     private final VetService vetService;
-    // private final PetTypeService petTypeService;
+    private final PetTypeService petTypeService;
     /*private final SpecialtyService specialtyService;
     private final VisitService visitService;*/
 
-    public DataLoader( OwnerService ownerService, VetService vetService /* , PetTypeService petTypeService,
+    public DataLoader( OwnerService ownerService, VetService vetService , PetTypeService petTypeService /*,
                       SpecialtyService specialtyService, VisitService visitService*/ ) {
         this.ownerService = ownerService;
         this.vetService = vetService;
-/*        this.petTypeService = petTypeService;
+        this.petTypeService = petTypeService; /*
         this.specialtyService = specialtyService;
         this.visitService = visitService;*/
     }
@@ -28,15 +30,15 @@ public class DataLoader implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-       // int count = petTypeService.findAll().size();
+        int count = petTypeService.findAll().size();
 
-       // if (count == 0 ){
+        if (count == 0 ){
             loadData();
-       // }
+        }
     }
 
     private void loadData() {
-        /*PetType dog = new PetType();
+        PetType dog = new PetType();
         dog.setName("Dog");
         PetType savedDogPetType = petTypeService.save(dog);
 
@@ -44,6 +46,8 @@ public class DataLoader implements CommandLineRunner {
         cat.setName("Cat");
         PetType savedCatPetType = petTypeService.save(cat);
 
+        System.out.println("Loaded PetTypes....");
+/*
         Speciality radiology = new Speciality();
         radiology.setDescription("Radiology");
         Speciality savedRadiology = specialtyService.save(radiology);
