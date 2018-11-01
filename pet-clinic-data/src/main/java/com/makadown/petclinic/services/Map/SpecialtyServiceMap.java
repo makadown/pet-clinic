@@ -1,15 +1,15 @@
 package com.makadown.petclinic.services.Map;
 
-import com.makadown.petclinic.model.Specialty;
-import com.makadown.petclinic.services.SpecialtiesService;
+import com.makadown.petclinic.model.Speciality;
+import com.makadown.petclinic.services.SpecialtyService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class SpecialtyServiceMap extends AbstractMapService<Specialty, Long> implements SpecialtiesService {
+public class SpecialtyServiceMap extends AbstractMapService<Speciality, Long> implements SpecialtyService {
     @Override
-    public Set<Specialty> findAll() {
+    public Set<Speciality> findAll() {
         return super.findAll();
     }
 
@@ -19,17 +19,17 @@ public class SpecialtyServiceMap extends AbstractMapService<Specialty, Long> imp
     }
 
     @Override
-    public void delete(Specialty object) {
+    public void delete(Speciality object) {
         super.delete(object);
     }
 
     @Override
-    public Specialty save(Specialty object) {
+    public Speciality save(Speciality object) {
         return super.save(object);
     }
 
     @Override
-    public Specialty findById(Long id) {
+    public Speciality findById(Long id) {
         return super.findById(id);
     }
 }
