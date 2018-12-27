@@ -1,0 +1,14 @@
+com\makadown\petclinic\services\Map\PetServiceMap.class
+com\makadown\petclinic\model\Person.class
+com\makadown\petclinic\model\Pet.class
+com\makadown\petclinic\model\Vet.class
+com\makadown\petclinic\model\PetType.class
+com\makadown\petclinic\services\Map\OwnerServiceMap.class
+com\makadown\petclinic\model\Owner.class
+com\makadown\petclinic\services\CrudService.class
+com\makadown\petclinic\model\BaseEntity.class
+com\makadown\petclinic\services\VetService.class
+com\makadown\petclinic\services\PetService.class
+com\makadown\petclinic\services\Map\VetServiceMap.class
+com\makadown\petclinic\services\Map\AbstractMapService.class
+com\makadown\petclinic\services\OwnerService.class
