@@ -9,13 +9,18 @@ com\makadown\petclinic\services\springdatajpa\SpecialtySDJpaService.class
 com\makadown\petclinic\repositories\OwnerRepository.class
 com\makadown\petclinic\repositories\PetRepository.class
 com\makadown\petclinic\services\SpecialtyService.class
+com\makadown\petclinic\model\Owner$OwnerBuilder.class
 com\makadown\petclinic\services\map\VisitMapService.class
+com\makadown\petclinic\model\Speciality$SpecialityBuilder.class
 com\makadown\petclinic\services\springdatajpa\VisitSDJpaService.class
 com\makadown\petclinic\repositories\VetRepository.class
 com\makadown\petclinic\services\PetService.class
 com\makadown\petclinic\services\VisitService.class
+com\makadown\petclinic\model\Vet$VetBuilder.class
 com\makadown\petclinic\services\map\OwnerServiceMap.class
+com\makadown\petclinic\model\PetType$PetTypeBuilder.class
 com\makadown\petclinic\services\springdatajpa\OwnerSDJpaService.class
+com\makadown\petclinic\model\Pet$PetBuilder.class
 com\makadown\petclinic\repositories\VisitRepository.class
 com\makadown\petclinic\services\springdatajpa\PetSDJpaService.class
 com\makadown\petclinic\model\Person.class
@@ -24,6 +29,7 @@ com\makadown\petclinic\services\springdatajpa\PetTypeSDJpaService.class
 com\makadown\petclinic\repositories\PetTypeRepository.class
 com\makadown\petclinic\services\map\PetServiceMap.class
 com\makadown\petclinic\model\PetType.class
+com\makadown\petclinic\model\Visit$VisitBuilder.class
 com\makadown\petclinic\model\Owner.class
 com\makadown\petclinic\services\CrudService.class
 com\makadown\petclinic\model\BaseEntity.class
