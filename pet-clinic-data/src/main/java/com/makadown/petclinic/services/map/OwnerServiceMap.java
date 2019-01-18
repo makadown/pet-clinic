@@ -1,4 +1,4 @@
-package com.makadown.petclinic.services.Map;
+package com.makadown.petclinic.services.map;
 
 import com.makadown.petclinic.model.Owner;
 import com.makadown.petclinic.model.Pet;

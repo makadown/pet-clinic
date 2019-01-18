@@ -1,10 +1,7 @@
 package com.makadown.petclinic.bootstrap;
 
 import com.makadown.petclinic.model.*;
-import com.makadown.petclinic.services.OwnerService;
-import com.makadown.petclinic.services.PetTypeService;
-import com.makadown.petclinic.services.SpecialtyService;
-import com.makadown.petclinic.services.VetService;
+import com.makadown.petclinic.services.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -17,15 +14,15 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private final SpecialtyService specialtyService;
-   /* private final VisitService visitService;*/
+    private final VisitService visitService;
 
     public DataLoader( OwnerService ownerService, VetService vetService , PetTypeService petTypeService ,
-                      SpecialtyService specialtyService /*, VisitService visitService*/ ) {
+                      SpecialtyService specialtyService , VisitService visitService ) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
-        this.specialtyService = specialtyService;/*
-        this.visitService = visitService;*/
+        this.specialtyService = specialtyService;
+        this.visitService = visitService;
     }
 
     @Override
@@ -94,12 +91,12 @@ public class DataLoader implements CommandLineRunner {
 
         ownerService.save(owner2);
 
-        /*Visit catVisit = new Visit();
+        Visit catVisit = new Visit();
         catVisit.setPet(fionasCat);
         catVisit.setDate(LocalDate.now());
-        catVisit.setDescription("Sneezy Kitty");*/
+        catVisit.setDescription("Sneezy Kitty");
 
-        // visitService.save(catVisit);
+        visitService.save(catVisit);
 
         System.out.println("Loaded Owners....");
 
