@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.makadown.petclinic.controllers.OwnerControllerTest" time="2.844" tests="9" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="processUpdateOwnerForm" classname="com.makadown.petclinic.controllers.OwnerControllerTest" time="1.931"/>
+  <testcase name="processFindFormEmptyReturnMany" classname="com.makadown.petclinic.controllers.OwnerControllerTest" time="0.125"/>
+  <testcase name="findOwners" classname="com.makadown.petclinic.controllers.OwnerControllerTest" time="0.101"/>
+  <testcase name="processFindFormReturnOne" classname="com.makadown.petclinic.controllers.OwnerControllerTest" time="0.113"/>
+  <testcase name="initUpdateOwnerForm" classname="com.makadown.petclinic.controllers.OwnerControllerTest" time="0.101"/>
+  <testcase name="processCreationForm" classname="com.makadown.petclinic.controllers.OwnerControllerTest" time="0.127"/>
+  <testcase name="initCreationForm" classname="com.makadown.petclinic.controllers.OwnerControllerTest" time="0.099"/>
+  <testcase name="processFindFormReturnMany" classname="com.makadown.petclinic.controllers.OwnerControllerTest" time="0.12"/>
+  <testcase name="displayOwner" classname="com.makadown.petclinic.controllers.OwnerControllerTest" time="0.114"/>
+</testsuite>

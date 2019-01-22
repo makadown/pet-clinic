@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.makadown.petclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.169" tests="7" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="delete" classname="com.makadown.petclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.155"/>
+  <testcase name="findAll" classname="com.makadown.petclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.002"/>
+  <testcase name="findById" classname="com.makadown.petclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.004"/>
+  <testcase name="save" classname="com.makadown.petclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.002"/>
+  <testcase name="findByLastName" classname="com.makadown.petclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.002"/>
+  <testcase name="findByIdNotFound" classname="com.makadown.petclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.001"/>
+  <testcase name="deleteById" classname="com.makadown.petclinic.services.springdatajpa.OwnerSDJpaServiceTest" time="0.001"/>
+</testsuite>
