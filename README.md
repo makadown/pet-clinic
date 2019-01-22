@@ -1,4 +1,7 @@
 # pet-clinic
+
+[![CircleCI](https://circleci.com/gh/makadown/pet-clinic.svg?style=svg)](https://circleci.com/gh/makadown/pet-clinic)
+
 Proyecto de curso de Spring Framework.
 
 Instructor: John Thompson.
