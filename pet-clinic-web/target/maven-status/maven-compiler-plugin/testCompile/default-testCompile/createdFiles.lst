@@ -1,1 +1,4 @@
+com\makadown\petclinic\services\map\OwnerMapServiceTest.class
+com\makadown\petclinic\controllers\OwnerControllerTest.class
 com\makadown\petclinic\PetClinicApplicationTests.class
+com\makadown\petclinic\services\springdatajpa\OwnerSDJpaServiceTest.class
